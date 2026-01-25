@@ -19,3 +19,5 @@ autoscaling:
   maxReplicas: 6
   targetCPUUtilizationPercentage: 70
   
+secrets:
+  existingSecretName: django-db
